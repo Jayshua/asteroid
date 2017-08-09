@@ -1,0 +1,1948 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"GLTE",
+				"GL_TEXTURE_2D"
+			],
+			[
+				"instr",
+				"instruction"
+			],
+			[
+				"rotat",
+				"rotation"
+			],
+			[
+				"mis",
+				"missile"
+			],
+			[
+				"mi",
+				"missile"
+			],
+			[
+				"miss",
+				"missiles"
+			],
+			[
+				"Thm",
+				"ThrusterModule\t(thruster_module.rs)"
+			],
+			[
+				"Thru",
+				"ThrusterModule\t(thruster_module.rs)"
+			],
+			[
+				"dcpu",
+				"dcpu16_emulator\t(Cargo.toml)"
+			],
+			[
+				"Hwin",
+				"HardwareInfo"
+			],
+			[
+				"Har",
+				"HardwareDevice\t(bus.rs)"
+			],
+			[
+				"RE",
+				"Register"
+			],
+			[
+				"hard",
+				"hardware"
+			],
+			[
+				"getinf",
+				"get_info\t(hard_drive.rs)"
+			],
+			[
+				"hardw",
+				"hardware"
+			],
+			[
+				"Hardwre",
+				"HardwareInfo\t(hardware_interface.rs)"
+			],
+			[
+				"dcpupr",
+				"dcpu.stack_pointer\t(main.rs)"
+			],
+			[
+				"mem",
+				"memory"
+			],
+			[
+				"print",
+				"println!"
+			],
+			[
+				"prin",
+				"println!"
+			],
+			[
+				"insts",
+				"instructions"
+			],
+			[
+				"inss",
+				"instructions"
+			],
+			[
+				"inst",
+				"instructions"
+			],
+			[
+				"N",
+				"NoOperation"
+			],
+			[
+				"getinof",
+				"get_info"
+			],
+			[
+				"Hard",
+				"HardDrive"
+			],
+			[
+				"READ",
+				"Reading"
+			],
+			[
+				"stpo",
+				"stack_pointer"
+			],
+			[
+				"asser",
+				"assert_eq\tassert_eq!(…, …)"
+			],
+			[
+				"regs",
+				"registers"
+			],
+			[
+				"asserte",
+				"assert_eq!\t(complex_operand.rs)"
+			],
+			[
+				"myd",
+				"my_dcpu"
+			],
+			[
+				"mdc",
+				"my_dcpu"
+			],
+			[
+				"my",
+				"my_dcpu"
+			],
+			[
+				"mydc",
+				"my_dcpu.memory"
+			],
+			[
+				"Spoper",
+				"SpecialOperation\t(lib.rs)"
+			],
+			[
+				"Simpop",
+				"SimpleOperand\t(lib.rs)"
+			],
+			[
+				"dest",
+				"destination\t(grammar.rustpeg)"
+			],
+			[
+				"Data",
+				"DatData"
+			],
+			[
+				"gernat",
+				"generator"
+			],
+			[
+				"generator",
+				"code_generator"
+			],
+			[
+				"destliter",
+				"destination_literal"
+			],
+			[
+				"basic_op",
+				"basic_operation"
+			],
+			[
+				"assert_",
+				"assert_eq!"
+			],
+			[
+				"bas",
+				"basic_operation"
+			],
+			[
+				"ase",
+				"assert_eq!"
+			],
+			[
+				"Sop",
+				"SpecialOperation"
+			],
+			[
+				"Spec",
+				"SpecialOperation"
+			],
+			[
+				"0b000",
+				"0b0000_0000_0001_1111"
+			],
+			[
+				"Simp",
+				"SimpleOperand"
+			],
+			[
+				"Spe",
+				"SpecialOperation"
+			],
+			[
+				"Spop",
+				"SpecialOperation"
+			],
+			[
+				"asse",
+				"assert_eq!"
+			],
+			[
+				"basop",
+				"BasicOperation"
+			],
+			[
+				"accu",
+				"accumulator"
+			],
+			[
+				"reg",
+				"register_values"
+			],
+			[
+				"Bas",
+				"Basic"
+			],
+			[
+				"Basop",
+				"BasicOperation"
+			],
+			[
+				"Sp",
+				"SpecialOperation"
+			],
+			[
+				"instu",
+				"instructions"
+			],
+			[
+				"overf",
+				"overflow_register"
+			],
+			[
+				"Comp",
+				"ComplexOperand"
+			],
+			[
+				"Operab",
+				"OperandB"
+			],
+			[
+				"pan",
+				"panic!"
+			],
+			[
+				"0b",
+				"0b0000_0011_1110_0000"
+			],
+			[
+				"Basi",
+				"BasicOperation"
+			],
+			[
+				"opera",
+				"operand"
+			],
+			[
+				"cyc",
+				"cycle_count"
+			],
+			[
+				"wrapp",
+				"wrapping_mul"
+			],
+			[
+				"tarnma",
+				"transform_matrix"
+			],
+			[
+				"Uniform",
+				"uniform"
+			],
+			[
+				"fal",
+				"FALSE"
+			],
+			[
+				"v",
+				"vertexes"
+			],
+			[
+				"Shpr",
+				"ShaderProgram"
+			],
+			[
+				"versha",
+				"VERTEX_SHADER"
+			],
+			[
+				"iter",
+				"Iterator"
+			],
+			[
+				"eesl",
+				"events_loop"
+			],
+			[
+				"mup",
+				"multiplier"
+			],
+			[
+				"cloc",
+				"color_begin_location"
+			],
+			[
+				"Uni",
+				"Uniform4f"
+			],
+			[
+				"Fi",
+				"FillType"
+			],
+			[
+				"Sha",
+				"ShaderProgram"
+			],
+			[
+				"A",
+				"ARRAY_BUFFER"
+			],
+			[
+				"link",
+				"link_program"
+			],
+			[
+				"po",
+				"points"
+			],
+			[
+				"Dattypof",
+				"DataType_offset_pointer"
+			],
+			[
+				"p_r",
+				"p_right"
+			],
+			[
+				"Datt",
+				"DataType"
+			],
+			[
+				"pro",
+				"p_rows"
+			],
+			[
+				"pco",
+				"p_column"
+			],
+			[
+				"pc",
+				"p_column"
+			],
+			[
+				"pval",
+				"p_values"
+			],
+			[
+				"Ret",
+				"ReconTable"
+			],
+			[
+				"ret",
+				"RECONSTRUCTION_COLUMN_GROWTH"
+			],
+			[
+				"inrec",
+				"INITIAL_RECONSTRUCTION_ROWS"
+			],
+			[
+				"reta",
+				"ReconTable"
+			],
+			[
+				"Vta",
+				"ValueTable"
+			],
+			[
+				"col",
+				"Column"
+			],
+			[
+				"colc",
+				"column_count"
+			],
+			[
+				"pcol",
+				"p_columns"
+			],
+			[
+				"all",
+				"_allocation_count"
+			],
+			[
+				"Dat",
+				"DataValueCopy"
+			],
+			[
+				"dats",
+				"INITIAL_DATA_SEGMENT_COUNT"
+			],
+			[
+				"dATT",
+				"DataType"
+			],
+			[
+				"datat",
+				"data_type"
+			],
+			[
+				"datca",
+				"data_capacity"
+			],
+			[
+				"coc",
+				"column_count"
+			],
+			[
+				"pdes",
+				"p_descriptor"
+			],
+			[
+				"fmof",
+				"FieldDescriptor_memory_offset_to"
+			],
+			[
+				"pdest",
+				"p_field_descriptors"
+			],
+			[
+				"pta",
+				"p_table"
+			],
+			[
+				"liit",
+				"ListIteratee"
+			],
+			[
+				"poc",
+				"pointC"
+			],
+			[
+				"box",
+				"boxX"
+			],
+			[
+				"beg",
+				"being\t(nanovg.h)"
+			],
+			[
+				"win",
+				"p_window"
+			],
+			[
+				"Inpus",
+				"InputState"
+			],
+			[
+				"perspe",
+				"perspective_matrix"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"divis",
+				"divisions"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"Mat",
+				"Matrix4"
+			],
+			[
+				"vec",
+				"vectorB"
+			],
+			[
+				"matri",
+				"matrixA"
+			],
+			[
+				"accera",
+				"accelerations"
+			],
+			[
+				"ve",
+				"velocity"
+			],
+			[
+				"cy",
+				"cycle_accumulator"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/User/plainC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C.sublime-build",
+					""
+				],
+				[
+					"Packages/User/plainC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/User/plainC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Haskell/Haskell.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/User/plainC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Haskell/Haskell.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/plainC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Rust/Rust.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 78.0,
+		"last_filter": "projsave",
+		"selected_items":
+		[
+			[
+				"projsave",
+				"Project: Save As"
+			],
+			[
+				"gdb",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"ssrust",
+				"Set Syntax: Rust"
+			],
+			[
+				"ssrus",
+				"Set Syntax: Rust"
+			],
+			[
+				"ssru",
+				"Set Syntax: Rust"
+			],
+			[
+				"ssjavasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tohex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"preferen",
+				"Preferences: Settings"
+			],
+			[
+				"pasca",
+				"Convert Case: PascalCase"
+			],
+			[
+				"toghe",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"ssplain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"instp",
+				"Package Control: Install Package"
+			],
+			[
+				"pascas",
+				"Convert Case: PascalCase"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"thexv",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"tohe",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"the",
+				"Boxy Theme: Environment"
+			],
+			[
+				"toh",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"titcas",
+				"Convert Case: Title Case"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"settgdb",
+				"Set Syntax: GDB"
+			],
+			[
+				"dislin",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"enlint",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"hevi",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"hex",
+				"Hex Viewer: Generate Hash"
+			],
+			[
+				"sublinenab",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"bansa",
+				"Bang Search"
+			],
+			[
+				"opre",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"opers",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"instalp",
+				"Package Control: Install Package"
+			],
+			[
+				"togh",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"edit",
+				"Hex Viewer: Show Hex Edit Panel"
+			],
+			[
+				"heedit",
+				"Hex Viewer: Toggle Endianness (Big|Little)"
+			],
+			[
+				"toghex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"togghex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"dislint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"linting",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"opresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"brekapoin",
+				"SublimeGDB: Open Breakpoint View"
+			],
+			[
+				"sublinterkey",
+				"Preferences: SublimeLinter Key Bindings – Default"
+			],
+			[
+				"gdbdefa",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"ne",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"neer",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"sublinterenab",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings"
+			],
+			[
+				"projsav",
+				"Project: Save As"
+			],
+			[
+				"breakpo",
+				"SublimeGDB: Open Breakpoint View"
+			],
+			[
+				"build",
+				"Build With: Make"
+			],
+			[
+				"gdbse",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"gdbsetting",
+				"Preferences: SublimeGDB Settings – User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"gdbset",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"stard",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"stopd",
+				"SublimeGDB: Stop Debugging"
+			],
+			[
+				"gdbdeb",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"ssjava",
+				"Set Syntax: Java"
+			],
+			[
+				"ssya",
+				"Set Syntax: YAML"
+			],
+			[
+				"SSJAVASC",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"SSJAVA",
+				"Set Syntax: Java"
+			],
+			[
+				"intab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"indspac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sshask",
+				"Set Syntax: Haskell"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"lintdisa",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"extractpa",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"opresour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sshas",
+				"Set Syntax: Haskell"
+			],
+			[
+				"ctotab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"showall",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"ssjavas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"debug",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"conttotab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"cotab",
+				"Origami: Clone File to Pane Above"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"remopac",
+				"Package Control: Remove Package"
+			],
+			[
+				"ediproj",
+				"Project Manager: Edit Project"
+			],
+			[
+				"preoj",
+				"Project Manager: Edit Project"
+			],
+			[
+				"opproje",
+				"Project Manager: Open Project"
+			],
+			[
+				"subgdsetdef",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"subgdbsetting",
+				"Preferences: SublimeGDB Settings – User"
+			],
+			[
+				"INSTAP",
+				"Package Control: Install Package"
+			],
+			[
+				"sublinelinter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyntaxc",
+				"Set Syntax: C"
+			],
+			[
+				"contotabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"lorei",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"linthi",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"isnap",
+				"Package Control: Install Package"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"conspac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inspac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"cospa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"cotsp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"instapc",
+				"Package Control: Install Package"
+			],
+			[
+				"contspa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"contsp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"cotspac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"contosp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"tospac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"contospac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conts",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"SSHASK",
+				"Set Syntax: Haskell"
+			],
+			[
+				"opensr",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ss",
+				"Set Syntax: C++"
+			],
+			[
+				"boxac",
+				"Boxy Theme: Activation"
+			],
+			[
+				"projadd",
+				"Project Manager: Add Project"
+			],
+			[
+				"opres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sskot",
+				"Set Syntax: kotlin"
+			],
+			[
+				"instlp",
+				"Package Control: Install Package"
+			],
+			[
+				"operes",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"openreso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remopack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sskotl",
+				"Set Syntax: Kotlin"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 260.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/source/texture/texture.c",
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/source/assertion/assertion.h",
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/source/texture/texture.h",
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/source/shader_program/shader_program.c",
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/source/shader_program/shader_program.h",
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/build.bat",
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/source/main.c",
+		"/C/Users/Jayshua/Desktop/Code/C/asteroid/readme.md",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/asteroids.sublime-project",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/assets/ship.png",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/glad.c",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/assertion/assertion.c",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/assertion/assertion.h",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/program/program.c",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/program/program.h",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/main.c",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/libraries/stb_image.h",
+		"/C/Users/Jayshua/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGDB.sublime-settings",
+		"/C/Users/Jayshua/AppData/Roaming/Sublime Text 3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/shader_program/shader_program.h",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/shader_program/shader_program.c",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/build.bat",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/assertion.h",
+		"/C/Users/Jayshua/Desktop/Code/C/astroid/source/program.c",
+		"/C/Users/Jayshua/Desktop/Code/C/nanovg/src/nanovg_gl.h",
+		"/C/Users/Jayshua/Desktop/Code/C/nanovg/src/nanovg_gl_utils.h",
+		"/C/Users/Jayshua/Desktop/Code/C/nanovg/src/nanovg.c",
+		"/C/Users/Jayshua/Desktop/Code/C/nanovg/src/nanovg.h",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso_gradiated/thoughts.txt",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/left_right.dasm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/rotate.dasm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/.gitignore",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/src/ship.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/todo.txt",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/src/hardware_interface.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/test.dasm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/test.bin",
+		"/C/Users/Jayshua/Desktop/input.ahk",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/src/bus.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/src/thrusters.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/cluster/dcpu/dcpu16_types",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/window.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/canvas.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/lib.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/readme.md",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/picasso/mod.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/Cargo.toml",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/picasso/window.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/picasso/canvas.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/picasso/shader_program.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/main.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/shader_program.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/picasso/src/point.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/src/syntax.rustpeg",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/src/main.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/src/command.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/src/hardware_interface.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/hdtest.dasm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/build.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/src/debugger.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/Cargo.toml",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/src/hard_drive.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/programs/keplerian_orbit.js",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_types/src/lib.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/program_crc.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/instructions_arithmetic.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/instructions_branching.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/instructions_special.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_miscellaneous.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_push_pop.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_register.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_register_indirect.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_register_next_word_indirect.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/Cargo.toml",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/grammar.rustpeg",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/ast/special_operation.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/ast/mod.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/ast/value.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/ast/destination.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/lib.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/lib.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/mod.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/test.dasm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/programs/interrupt.dasm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/cli.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/code_generator.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/readme.md",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/Cargo.toml",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/test.asm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/ast/indirection.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/ast/register.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_debugger/src/types/mod.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/programs/grav_sim.js",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/programs/cli_ideas.txt",
+		"/C/Program Files (x86)/Celestia/README.txt",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_tests/register_indirect.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_tests/register.rs",
+		"/C/Users/Jayshua/Desktop/Code/Haskell/dcpu/Main.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/types/complex_operand.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/types/instruction.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/instructions/basic_operation.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/types/mod.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/instructions/instruction.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/instructions/complex_operand.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/instructions/simple_operand.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/instructions/special_operation.rs",
+		"/C/Users/Jayshua/Desktop/orbit.html",
+		"/C/Users/Jayshua/Desktop/leap_frog.c",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/programs/interrupt.bin",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_tests/miscellaneous.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_tests/push_pop.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_tests/register_next_word_indirect.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_tests/mod.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/tests/operand_tests.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/test.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu16/src/dcpu.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/out.txt",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/dcpu.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_emulator/src/main.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/src/ast/basic_operation.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/readme.md",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/program.dasm",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/file.dasm",
+		"/C/Users/Jayshua/Desktop/ontop.ahk",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/build.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/target/debug/build/dcpu16_assembler-7db4f0f44087714a/out/grammar.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/peg_test/src/ast.rs",
+		"/C/Users/Jayshua/Desktop/Code/Rust/dcpu/dcpu16_assembler/out.txt"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 112.0,
+		"where_history":
+		[
+			"C:\\Users\\Jayshua\\Desktop\\Code\\Rust\\cluster\\src",
+			"C:\\Users\\Jayshua\\Desktop\\Code\\Rust\\cluster\\src\\ship",
+			"C:\\Users\\Jayshua\\Desktop\\Code\\Rust\\dcpu\\dcpu16_emulator\\src\\tests",
+			"",
+			"C:\\Users\\Jayshua\\Desktop\\RadiusRaid",
+			"",
+			"C:\\Users\\Jayshua\\Desktop\\pikatime\\site\\fields\\pikatime\\assets",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Astroids",
+			"ShaderProgram",
+			"Texture",
+			"    ",
+			"\\",
+			"p_program",
+			"Program_",
+			"p_program",
+			"ShaderProgram",
+			"p_p_program",
+			"p_program",
+			"Program",
+			"assert\\w",
+			"assert\\s",
+			"assert",
+			"p_program",
+			"p_p_program",
+			"p_program",
+			"p_p_program",
+			"program",
+			"assert",
+			"Program* Program",
+			"Program",
+			"assert",
+			"shader_id",
+			"VERTEX_SHADER_SOURCE",
+			"GL_VERTEX_SHADER",
+			"shader_type",
+			"vertex_shader_id",
+			"notNullFun",
+			"asdf_pointer",
+			"assert",
+			"window",
+			"GL_",
+			"gl::",
+			"cache",
+			"HERE",
+			"GL_RED",
+			"::",
+			"imagefmt",
+			"viewSize",
+			"view",
+			"view\\[0\\]",
+			"renderViewport",
+			"nvgBeginFrame",
+			"begin",
+			"0x7000",
+			"500_000",
+			"32767",
+			"0000000001",
+			"append",
+			"missiles",
+			"fn",
+			"tick",
+			"Universe",
+			"Missle",
+			"missle",
+			"ship",
+			"f32",
+			"32",
+			"f32",
+			"0xeeee",
+			"00000000001",
+			"0x1fff",
+			"0000000001",
+			"guard",
+			"current_frame_number",
+			"FixedStep",
+			"sim_time",
+			"counter",
+			"10000",
+			"500000",
+			"clock_multiplier",
+			"frame_count",
+			"fn",
+			"0000001",
+			"f32",
+			"self.dcpu",
+			"0xffff",
+			"pc, ",
+			"pc, loop",
+			"[direction",
+			"pc loop",
+			"\\[:",
+			" :",
+			"\\n",
+			" ",
+			"0x",
+			":direction",
+			" :",
+			"direction",
+			"000000000001",
+			"00000001",
+			"tick",
+			"ellapsed",
+			"000001",
+			"00001",
+			"bus",
+			"hardware",
+			"ThrusterModule",
+			"0.0",
+			"thrusters",
+			"Interrupt",
+			"HardwareDevice",
+			"HardwareInfo",
+			"pub",
+			"Thrusters",
+			"Thruster",
+			"HardwareDevice",
+			"clockwise",
+			"right",
+			"left",
+			"get_file",
+			"sized_program",
+			"println",
+			"println!",
+			"result",
+			"char",
+			"Canvas",
+			"shader",
+			"vs",
+			"fs",
+			"FS_SRC",
+			"vs",
+			"VS_SRC",
+			"vertes_shader",
+			"VERTEX_SHADER",
+			"Canvas"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"use ::dcpu16_types::Dcpu as IDcpu;",
+			"dcpu\\.step",
+			"dcpu\\.step_test",
+			"PacketPointer"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 193.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "Packages/Rust/Cargo.sublime-build",
+	"project": "astroid.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pors",
+				"src\\point.rs"
+			],
+			[
+				"16typlib",
+				"dcpu16_types\\src\\lib.rs"
+			],
+			[
+				"command",
+				"dcpu16_debugger\\src\\command.rs"
+			],
+			[
+				"lib.rs",
+				"dcpu16_emulator\\src\\lib.rs"
+			],
+			[
+				"librs",
+				"dcpu16_types\\src\\lib.rs"
+			],
+			[
+				"nanvog",
+				"src\\nanovg.h"
+			],
+			[
+				"window",
+				"source\\Window.java"
+			],
+			[
+				"ui_interface.h",
+				"source\\blender\\editors\\include\\UI_interface.h"
+			],
+			[
+				"region",
+				"vector\\source\\Region.java"
+			],
+			[
+				"glfwin",
+				"source\\window\\GLFWWindow.java"
+			],
+			[
+				"mouse",
+				"source\\control\\Mouse.java"
+			],
+			[
+				"windo",
+				"source\\window\\GLFWWindow.java"
+			],
+			[
+				"hero",
+				"source\\Hero.java"
+			],
+			[
+				"butjava",
+				"source\\Button.java"
+			],
+			[
+				"buttjava",
+				"vector\\source\\Button.java"
+			],
+			[
+				"blender/wm.h",
+				"source\\blender\\windowmanager\\wm.h"
+			],
+			[
+				"windowmanager.h",
+				"intern\\ghost\\intern\\GHOST_WindowManager.h"
+			],
+			[
+				"rec",
+				"RadiusRaid\\headers\\rectangle.h"
+			],
+			[
+				"cregach",
+				"RadiusRaid\\headers\\controller\\create_game_controller.h"
+			],
+			[
+				"cregacpp",
+				"RadiusRaid\\source\\controller\\create_game_controller.cpp"
+			],
+			[
+				"join",
+				"RadiusRaid\\source\\controller\\join_game_controller.cpp"
+			],
+			[
+				"udpsch",
+				"RadiusRaid\\headers\\network\\udp_socket.h"
+			],
+			[
+				"netmah",
+				"RadiusRaid\\headers\\network\\network_manager.h"
+			],
+			[
+				"nemanc",
+				"RadiusRaid3\\source\\network\\network_manager.cpp"
+			],
+			[
+				"concontcpp",
+				"RadiusRaid\\source\\controller\\connecting_controller.cpp"
+			],
+			[
+				"udpsco",
+				"RadiusRaid\\source\\network\\udp_socket.cpp"
+			],
+			[
+				"neh",
+				"RadiusRaid\\headers\\network\\network_manager.h"
+			],
+			[
+				"derfinh",
+				"RadiusRaid\\headers\\definitions.h"
+			],
+			[
+				"udpc",
+				"RadiusRaid\\source\\network\\udp_socket.cpp"
+			],
+			[
+				"pa",
+				"RadiusRaid\\headers\\network\\packet.h"
+			],
+			[
+				"pack",
+				"RadiusRaid\\source\\network\\packet.cpp"
+			],
+			[
+				"packcp",
+				"RadiusRaid3\\experiments\\packets.cpp"
+			],
+			[
+				"nema",
+				"RadiusRaid\\headers\\network\\network_manager.h"
+			],
+			[
+				"conh",
+				"RadiusRaid\\headers\\controller\\controller.h"
+			],
+			[
+				"concontrh",
+				"RadiusRaid\\headers\\controller\\connecting_controller.h"
+			],
+			[
+				"netwh",
+				"RadiusRaid\\headers\\network\\network_manager.h"
+			],
+			[
+				"pakh",
+				"RadiusRaid\\headers\\network\\packet.h"
+			],
+			[
+				"conconh",
+				"RadiusRaid\\headers\\controller\\connecting_controller.h"
+			],
+			[
+				"definh",
+				"RadiusRaid\\headers\\definitions.h"
+			],
+			[
+				"gamh",
+				"RadiusRaid\\headers\\game.h"
+			],
+			[
+				"maimeh",
+				"RadiusRaid\\headers\\controller\\main_menu_controller.h"
+			],
+			[
+				"sewrcpp",
+				"RadiusRaid\\source\\network\\serial_writer.cpp"
+			],
+			[
+				"serwrite",
+				"RadiusRaid\\headers\\network\\serial_writer.h"
+			],
+			[
+				"sre",
+				"RadiusRaid\\headers\\network\\serial_reader.h"
+			],
+			[
+				"udpsockcp",
+				"RadiusRaid\\source\\network\\udp_socket.cpp"
+			],
+			[
+				"udpsoc",
+				"RadiusRaid\\headers\\network\\udp_socket.h"
+			],
+			[
+				"ach",
+				"RadiusRaid\\headers\\action.h"
+			],
+			[
+				"aci",
+				"RadiusRaid\\headers\\action.h"
+			],
+			[
+				"defin",
+				"RadiusRaid\\headers\\definitions.h"
+			],
+			[
+				"udps",
+				"RadiusRaid\\source\\network\\udp_socket.cpp"
+			],
+			[
+				"maincp",
+				"RadiusRaid\\src\\main.cpp"
+			],
+			[
+				"buir",
+				"RadiusRaid\\buildrun.bat"
+			],
+			[
+				"state",
+				"RadiusRaid\\src\\state.h"
+			],
+			[
+				"b.cp",
+				"RadiusRaid\\TESTS\\b.cpp"
+			],
+			[
+				"mai",
+				"RadiusRaid\\src\\main.cpp"
+			],
+			[
+				"renh",
+				"RadiusRaid\\oldsrc\\renderer.h"
+			],
+			[
+				"canvas",
+				"radius\\client\\src\\render\\canvas.rs"
+			],
+			[
+				"car",
+				"Cargo.toml"
+			],
+			[
+				"util",
+				"site\\fields\\pikatime\\assets\\js\\util.js"
+			],
+			[
+				"starwa",
+				"starWarsData.js"
+			],
+			[
+				"starwarsc",
+				"starWarsSchema.js"
+			],
+			[
+				"schema",
+				"schema.js"
+			],
+			[
+				"vag",
+				"Vagrantfile"
+			],
+			[
+				"pars",
+				"src\\parser.rs"
+			],
+			[
+				"clinmain",
+				"client\\src\\main.rs"
+			],
+			[
+				"sermain",
+				"server\\src\\main.rs"
+			],
+			[
+				"nesys",
+				"crates\\network\\src\\network_system.rs"
+			],
+			[
+				"main",
+				"client\\src\\main.rs"
+			],
+			[
+				"netws",
+				"client\\src\\network\\network_system.rs"
+			],
+			[
+				"vagr",
+				"Vagrantfile"
+			],
+			[
+				"plars",
+				"radius\\src\\entity\\player.rs"
+			],
+			[
+				"vec",
+				"src\\geometry\\vector.rs"
+			],
+			[
+				"play",
+				"src\\entity\\player.rs"
+			],
+			[
+				"canva",
+				"src\\render\\canvas.rs"
+			],
+			[
+				"rects",
+				"src\\geometry\\rect.rs"
+			],
+			[
+				"text",
+				"src\\render\\texture.rs"
+			],
+			[
+				"poin",
+				"src\\geometry\\point.rs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "aregion",
+		"selected_items":
+		[
+			[
+				"aregion",
+				"ARegion"
+			],
+			[
+				"region",
+				"region_scale_invoke"
+			]
+		],
+		"width": 920.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
