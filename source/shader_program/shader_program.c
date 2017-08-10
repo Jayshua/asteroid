@@ -7,8 +7,8 @@
 
 
 // Helper functions
-GLuint compile_shader(GLint shader_type, const char *p_source);
-GLuint create_program(const char *p_vertex_shader, const char *p_fragment_shader);
+ErrorCode compile_shader(GLuint *p_shader_id, GLint shader_type, const char *p_source) MUST_USE_RETURN;
+ErrorCode create_program(GLuint *p_program_id, const char *p_vertex_shader, const char *p_fragment_shader) MUST_USE_RETURN;
 
 
 
@@ -50,25 +50,30 @@ struct ShaderProgram {
 };
 
 
-void ShaderProgram_new(ShaderProgram **p_p_shader_program) {
-   assertion(p_p_shader_program != NULL, "Tried to initialize a new Program on a NULL pointer.");
-   assertion(*p_p_shader_program != NULL, "Tried to initialize a new Program on a NULL pointer.");
+ErrorCode ShaderProgram_new(ShaderProgram **p_p_shader_program) {
+   assertion(p_p_shader_program != NULL);
+   assertion(*p_p_shader_program != NULL);
 
    // Allocate memory for new program
    ShaderProgram *p_shader_program = malloc(sizeof(ShaderProgram));
-   assertion(p_shader_program != NULL, "Unable to allocate memory for The Program's structure.");
+   if (p_shader_program == NULL)
+      return ERR_SHADER_OBJECT_MALLOC;
 
    // Initialize program
-   p_shader_program->program_id = create_program(VERTEX_SHADER_SOURCE, FRAGMENT_SHADER_SOURCE);
+   ErrorCode program_result = create_program(&(p_shader_program->program_id), VERTEX_SHADER_SOURCE, FRAGMENT_SHADER_SOURCE);
+   if (program_result != SUCCESS)
+      return program_result;
 
    // "Return" new program to caller
    *p_p_shader_program = p_shader_program;
+
+   return SUCCESS;
 }
 
 
 void ShaderProgram_drop(ShaderProgram **p_p_shader_program) {
-   assertion(p_p_shader_program != NULL, "Tried to drop a Program on a NULL pointer.");
-   assertion(*p_p_shader_program != NULL, "Tried to drop a Program on a NULL pointer.");
+   assertion(p_p_shader_program != NULL);
+   assertion(*p_p_shader_program != NULL);
    printf("\nDropping program.");
 
    // Clean up program resources
@@ -88,7 +93,14 @@ void ShaderProgram_draw(ShaderProgram *p_shader_program) {
 }
 
 
-GLuint compile_shader(GLint shader_type, const char *p_source) {
+
+
+
+
+
+ErrorCode compile_shader(GLuint *p_shader_id, GLint shader_type, const char *p_source) {
+   assertion(p_shader_id != NULL);
+
    // Create the shader
    GLuint shader_id = glCreateShader(shader_type);
    glShaderSource(shader_id, 1, &p_source, NULL);
@@ -99,31 +111,47 @@ GLuint compile_shader(GLint shader_type, const char *p_source) {
    glGetShaderiv(shader_id, GL_COMPILE_STATUS, &compile_status);
 
    if (compile_status != GL_TRUE) {
+      // Allocate memory for the error log messages
       GLint log_length;
       glGetShaderiv(shader_id, GL_INFO_LOG_LENGTH, &log_length);
-
       char *p_log_buffer = malloc(log_length * sizeof(char));
-      assertion(p_log_buffer != NULL, "Unable to allocate memory for the shader compile error log.");
+      if (p_log_buffer == NULL)
+         return ERR_SHADER_LOG_MALLOC;
+
+      // Get the error log
       glGetShaderInfoLog(shader_id, log_length, NULL, p_log_buffer);
 
+      // Print the error log
       printf("\nUnable to compile the shader.");
       printf("\nReason: %s", p_log_buffer);
 
+      // Cleanup
       free(p_log_buffer);
-
       glDeleteShader(shader_id);
 
-      exit(-1);
+      return ERR_SHADER_COMPILE;
    }
 
-   return shader_id;
+   *p_shader_id = shader_id;
+
+   return SUCCESS;
 }
 
 
-GLuint create_program(const char *p_vertex_shader, const char *p_fragment_shader) {
-   // Create the shaders
-   GLuint vertex_shader_id = compile_shader(GL_VERTEX_SHADER, p_vertex_shader);
-   GLuint fragment_shader_id = compile_shader(GL_FRAGMENT_SHADER, p_fragment_shader);
+ErrorCode create_program(GLuint *p_program_id, const char *p_vertex_shader, const char *p_fragment_shader) {
+   assertion(p_program_id != NULL);
+
+   // Create the vertex shader
+   GLuint vertex_shader_id;
+   ErrorCode vertex_shader_result = compile_shader(&vertex_shader_id, GL_VERTEX_SHADER, p_vertex_shader);
+   if (vertex_shader_result != SUCCESS)
+      return vertex_shader_result;
+
+   // Create the fragment shader
+   GLuint fragment_shader_id;
+   ErrorCode fragment_shader_result = compile_shader(&fragment_shader_id, GL_FRAGMENT_SHADER, p_fragment_shader);
+   if (fragment_shader_result != SUCCESS)
+      return fragment_shader_result;
 
    // Create the program
    GLuint program_id = glCreateProgram();
@@ -131,7 +159,7 @@ GLuint create_program(const char *p_vertex_shader, const char *p_fragment_shader
    glAttachShader(program_id, fragment_shader_id);
    glLinkProgram(program_id);
 
-   // Cleanup the shaders
+   // Cleanup the the shaders
    glDeleteShader(vertex_shader_id);
    glDeleteShader(fragment_shader_id);
 
@@ -140,22 +168,28 @@ GLuint create_program(const char *p_vertex_shader, const char *p_fragment_shader
    glGetProgramiv(program_id, GL_LINK_STATUS, &program_status);
 
    if (program_status != GL_TRUE) {
+      // Allocate memory for the error log
       GLint log_length;
       glGetProgramiv(program_id, GL_INFO_LOG_LENGTH, &log_length);
-
       char *p_log_buffer = malloc(log_length * sizeof(char));
-      assertion(p_log_buffer != NULL, "Unable to allocate memory for shader error log.");
+      if (p_log_buffer == NULL)
+         return ERR_PROGRAM_LOG_MALLOC;
+
+      // Get the compile log
       glGetProgramInfoLog(program_id, log_length, NULL, p_log_buffer);
 
+      // Print the compile log
       printf("\nUnable to link the shader program.");
       printf("\nReason: %s", p_log_buffer);
 
+      // Cleanup
       free(p_log_buffer);
-
       glDeleteProgram(program_id);
 
-      exit(-1);
+      return ERR_PROGRAM_LINK;
    }
 
-   return program_id;
+   *p_program_id = program_id;
+
+   return SUCCESS;
 }

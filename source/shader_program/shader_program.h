@@ -1,4 +1,5 @@
 #pragma once
+#include "../assertion/assertion.h"
 
 // Represents the shader program on the GPU used to draw the game
 // The game only has a single shader - so I decided to call it simply "The Program"
@@ -7,7 +8,7 @@ struct ShaderProgram;
 typedef struct ShaderProgram ShaderProgram;
 
 // Allocate and initialize The Program.
-void ShaderProgram_new(ShaderProgram **p_shader_program);
+ErrorCode ShaderProgram_new(ShaderProgram **p_shader_program) MUST_USE_RETURN;
 
 // Free any resources associated with The Program (include The Program's pointer itself)
 void ShaderProgram_drop(ShaderProgram **p_shader_program);

@@ -12,8 +12,7 @@ struct Texture {
 
 
 void Texture_new(Texture **p_p_texture, char *p_file_path) {
-   assertion(p_p_texture != NULL, "Tried to initialize new texture with NULL pointer.");
-   assertion(*p_p_texture != NULL, "Tried to initialize new texture with NULL pointer.");
+   assertion(p_p_texture != NULL);
 
    // Initialize the new texture
    Texture *p_texture = malloc(sizeof(Texture));
@@ -39,8 +38,8 @@ void Texture_new(Texture **p_p_texture, char *p_file_path) {
 
 
 void Texture_drop(Texture **p_p_texture) {
-   assertion(p_p_texture != NULL, "Tried to drop a texture with a NULL pointer");
-   assertion(*p_p_texture != NULL, "Tried to drop a texture with a NULL pointer");
+   assertion(p_p_texture != NULL);
+   assertion(*p_p_texture != NULL);
 
    // Clean up resources used by the texture
    Texture *p_texture = *p_p_texture;

@@ -13,7 +13,6 @@
 
 
 
-
 GLFWwindow *create_window() {
    if (!glfwInit()) {
       printf("Unable to initialize GLFW. Exiting program.");
@@ -21,7 +20,7 @@ GLFWwindow *create_window() {
    }
 
    GLFWwindow *p_window = glfwCreateWindow(640, 480, "Astroids", NULL, NULL);
-   assertion(p_window != NULL, "Unable to create a window.");
+   assertion(p_window != NULL);
 
    glfwMakeContextCurrent(p_window);
 
@@ -31,11 +30,19 @@ GLFWwindow *create_window() {
 
 int main() {
    GLFWwindow *p_window = create_window();
-   assertion(gladLoadGL(), "Unable to initialize OpenGL.");
+   assertion(gladLoadGL());
 
+   // Create the shader program
    ShaderProgram *p_shader_program;
-   ShaderProgram_new(&p_shader_program);
+   ErrorCode shader_program_result = ShaderProgram_new(&p_shader_program);
+   if (shader_program_result != SUCCESS) {
+      printf("Failed to create shader program. Abort is now inevitable. Resistance is futile.");
+      printf("\nError code %d", shader_program_result);
+      glfwTerminate();
+      exit(-1);
+   }
 
+   // Create the sprite texture
    Texture *p_texture;
    Texture_new(&p_texture, "assets/ship.png");
 
