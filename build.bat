@@ -17,6 +17,10 @@ gcc ^
    -Werror ^
    %= Add the "libraries" directory to the folders to search for #include headers =% ^
    -Ilibraries ^
+   %= Add the "binaries" directory to the folders to search for object files =% ^
+   -Lbinaries ^
    %= Link to the GLFW library =% ^
-   -lglfw3
+   -lglfw3 ^
+   %= Link to GDI32 - GLFW Dependency =% ^
+   -lgdi32
 
